@@ -1,0 +1,19 @@
+<!doctype html><html lang="ru"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Книга рецептов</title><meta name="theme-color" content="#203d70">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Книга рецептов">
+<link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<link rel="icon" href="./icon-192.png"><link rel="stylesheet" href="./style.css">
+<script defer src="./recipes.js"></script><script defer src="./app.js"></script></head><body>
+<header class="bar"><div class="wrap"><a href="./" class="brand"><i class="book" aria-hidden="true"></i>Моя кухня</a>
+<button id="tools">Меню книги <span aria-hidden="true">☰</span></button></div></header>
+<main class="wrap"><section class="cover"><div class="covertext"><h1>Книга<br>рецептов</h1>
+<button class="primary" id="new"><span aria-hidden="true">＋</span> Добавить рецепт</button></div>
+<img class="plate" src="./blini.jpg" alt="Стопка тонких блинов с маслом на синей тарелке"></section>
+<section class="shelf" aria-labelledby="library"><div class="sectionhead"><h2 id="library">Мои рецепты</h2>
+<label class="search"><span aria-hidden="true">⌕</span><input type="search" id="search" aria-label="Поиск по рецептам" placeholder="Найти рецепт"></label></div>
+<div class="tabs"><button id="all" aria-pressed="true">Все рецепты</button><button id="favorites" aria-pressed="false">Избранное</button></div>
+<div id="list"></div></section></main>
+<dialog id="modal" aria-labelledby="dt"><div class="dialoghead"><h2 id="dt"></h2><button id="close" aria-label="Закрыть">×</button></div><div id="panel"></div></dialog>
+<div id="notice" role="status" aria-live="polite" hidden></div>
+</body></html>

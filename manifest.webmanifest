@@ -1,0 +1,10 @@
+{
+  "id": "./", "name": "Книга рецептов", "short_name": "Книга рецептов",
+  "description": "Домашняя тетрадь для рецептов и кулинарных книг.",
+  "lang": "ru", "start_url": "./", "scope": "./", "display": "standalone",
+  "theme_color": "#203d70", "background_color": "#fffdf7",
+  "icons": [
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
