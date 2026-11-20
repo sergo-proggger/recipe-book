@@ -1,5 +1,5 @@
 const prefix = 'recipe-book:' + self.registration.scope + ':';
-const cacheName = prefix + '1';
+const cacheName = prefix + '2';
 const files = ['./','./index.html','./style.css','./recipes.js','./app.js','./manifest.webmanifest','./blini.jpg','./apple-touch-icon.png','./icon-192.png','./icon-512.png'];
 const urls = new Set(files.map(path => new URL(path,self.registration.scope).href));
 self.addEventListener('install',event=>{
